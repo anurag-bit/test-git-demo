@@ -7,8 +7,7 @@ class Student:
     def print_info(self):
         print("Student Information:")
         print("Name:", self.name)
-        print("Age:", self.age)
-        print("Grade:", self.grade)
+       
 
 
 name = input("Enter student name: ")
