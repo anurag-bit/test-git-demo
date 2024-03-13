@@ -4,8 +4,13 @@ class Student:
         self.age = age
         self.grade = grade
 
+    def print_info(self):
+        print("Student Information:")
+        print("Name:", self.name)
+       
 
-name = input("Enter student name: ")
+
+name = input("Enter student name: ")    
 age = input("Enter student age: ")
 grade = input("Enter student grade: ")
 
